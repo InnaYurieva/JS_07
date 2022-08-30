@@ -1,0 +1,25 @@
+#gallery{
+    width: 1400px;
+    height: 500px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    background-image: linear-gradient(red, yellow);
+  
+}
+img{
+    width: 400px;
+    display: block;
+    align-content: center;
+}
+li{
+    list-style: none;
+    align-self: center;
+
+}
+li:first-child {
+order: 1;
+}
+li:last-child{
+    order: 2;
+}
